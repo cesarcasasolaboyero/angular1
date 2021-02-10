@@ -3,12 +3,13 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-main',
   template: `
-    <p>
-      main works!
+    <p ngClass="title">
+      Prueba Angular
     </p>
   `,
-  styles: [
-  ]
+  styles: [`
+  `],
+  styleUrls: ["./main.component.css"]
 })
 export class MainComponent implements OnInit {
 
